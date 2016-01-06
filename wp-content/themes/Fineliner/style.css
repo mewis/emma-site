@@ -3654,3 +3654,94 @@ input[type=number] {
 	border-radius: 0;
 }
 
+/********************* mew's custom ****/
+body{
+	background: #ffffff;
+}
+
+#root-border {
+	margin: 0px auto;
+	padding: 0;
+	width: 100%;
+	background: #ffffff;
+}
+
+#root-container{
+	padding: 0!important;
+	background: #ffffff;
+	-webkit-box-shadow: 0;
+	-moz-box-shadow: 0;
+	box-shadow: 0;
+}
+
+#header-container{
+	width: 100%;
+	background-image : url('images/bg/banner-background.jpg');
+	min-height: 400px;
+	margin-bottom : 0;
+}
+
+#logo-wrapper{
+	top: 0px;
+	left: 0px!important;
+	bottom: auto;
+	width: 100%;
+	max-width: 1323px;
+	background-image: url('images/bg/banner-tendrilman-main.png');
+	height: 320px;
+	background-repeat: no-repeat;
+	padding: 0!important;
+}
+	
+#logo-extender{
+	position: absolute;
+	top: 0px;
+	left: 1323px;
+	right: 0px;
+	height: 320px;
+	background-image: url('images/bg/banner-tendril-repeating-section.png');
+}
+
+#logo{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.home #content-container {
+	width: 90%;
+}
+
+#inner-content-container{
+	margin-top: 0;
+}
+
+.home .uxb-port-root-element-wrapper.col4 .uxb-port-element-item{
+	width: 17%;
+}
+@media only screen and (max-width: 959px){
+	#logo{
+		text-align: left;
+		margin: 0;
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	#header-container{
+		min-height: 100px;
+	}
+	#logo-wrapper{
+		height: 110px;
+		background: transparent;
+
+	}
+	#logo-extender{
+		display: none;
+	}
+	#logo{
+		text-align: left;
+		margin: 0;
+		padding-top: 10px;
+	}
+}

@@ -188,12 +188,12 @@
 
 <?php if ( $is_displayed != 'false' || is_tax() ) : ?>
 	
-	<?php if ( ! is_front_page() || ! uxbarn_is_frontpage_child() ) : ?>
+	<?php if (is_single() && ( ! is_front_page() || ! uxbarn_is_frontpage_child() ) ) : ?>
 	<hr class="layout-divider content-width" />
 	<?php endif; ?>
 		
 	<!-- Page Intro -->
-	<div id="intro-wrapper">
+   	<div id="intro-wrapper" <?php if( !is_single()){ echo "style='display: none;'";} ?> >
 		
 	    <div id="intro" class="row">
 	        <div class="uxb-col large-12 columns">
@@ -222,5 +222,6 @@
 	    <hr class="layout-divider double-line content-width" />
 	    
     </div>
+   
     
 <?php endif; ?>

@@ -117,6 +117,7 @@
 					        </div>
 				        <?php endif; ?>
 				    </div>
+				    <div id="logo-extender"></div>
 				    <!-- Menu -->
 				    <div id="menu-wrapper" <?php echo $menu_class_full; ?>>
 				    	

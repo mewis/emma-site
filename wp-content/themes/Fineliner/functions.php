@@ -103,6 +103,7 @@ if ( ! function_exists( 'uxbarn_init_theme' ) ) {
 		// [theme-functions.php]
 		
 		// Register theme's custom widgets
+		
 		add_action( 'widgets_init', 'uxbarn_register_widgets' );
 		
 	    // Register theme's image sizes
