@@ -3691,6 +3691,7 @@ body{
 	height: 320px;
 	background-repeat: no-repeat;
 	padding: 0!important;
+	z-index: 1;
 }
 	
 #logo-extender{
@@ -3717,6 +3718,39 @@ body{
 
 .home .uxb-port-root-element-wrapper.col4 .uxb-port-element-item{
 	width: 17%;
+}
+#root-container #menu-wrapper .menu-column{
+	width: 124px;
+	border: 0;
+}
+
+#menu-wrapper{
+	right: auto;
+	left: 10px;
+	top: 157px;
+}
+
+li.menu-item{
+	background-image: url('images/bg/button.png');
+	background-repeat: no-repeat;
+	height: 28px;
+	width: 124px;
+	padding: 7px 0;
+	text-align: center;
+	margin-bottom: 10px;
+	color: #ffffff;
+	position: relative;
+}
+
+li.menu-item a{
+	z-index: 2;
+	left: 0;
+	width: 100%;
+	position: absolute;
+}
+
+.main-menu .menu-marker{
+	display: none;
 }
 @media only screen and (max-width: 959px){
 	#logo{

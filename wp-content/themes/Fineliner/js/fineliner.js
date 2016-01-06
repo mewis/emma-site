@@ -244,7 +244,7 @@ jQuery(document).ready(function($) {
 			//console.debug($(this).children());
 			
 			// 3 items per column
-			if (itemCounter == 3 || index == menuItemCount - 1) {
+			if (itemCounter == 4 || index == menuItemCount - 1) {
 				
 				// Add menu UL into the column wrapper and then into root menu wrapper
 				$('#rendered-menu-wrapper').append($(menuColumnDiv).append($(menuColumnUl)));
